@@ -1,0 +1,29 @@
+{
+  "name": "streams-with-nodejs",
+  "version": "1.0.0",
+  "description": "Studing nodejs streams",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "nodemon src/client.js",
+    "server": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaiuzanji/streams-with-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaiuzanji/streams-with-nodejs/issues"
+  },
+  "homepage": "https://github.com/Kaiuzanji/streams-with-nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
